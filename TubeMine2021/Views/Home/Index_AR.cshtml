@@ -1,0 +1,453 @@
+﻿
+@{
+    ViewBag.Title = "Index_AR";
+    Layout = "~/Views/Shared/_Layout_AR.cshtml";
+}
+
+<header class="site-header" id="home">
+    <nav class="navbar navbar-expand-lg main-menu  fixed-top">
+        <div class="container-fluid custom-container">
+
+            <a href="#!" class="navbar-brand"><img src="/Publish/ar/assets/images/logo/logo.png" alt=""></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#siteNav" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="siteNav">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item"><a href="#home" class="nav-link smooth-scroll">الرئيسية</a></li>
+                    <li class="nav-item"><a href="#feature" class="nav-link smooth-scroll">الخواص</a></li>
+                    <li class="nav-item"><a href="#abouts" class="nav-link smooth-scroll">عن المنتج</a></li>
+                    <li class="nav-item"><a href="#screen" class="nav-link smooth-scroll">الشاشات</a></li>
+                    <li class="nav-item"> <a href="#faq" class="nav-link smooth-scroll">الأسئله الشائعه</a></li>
+
+                    @*<li class="nav-item"><a href="#blog" class="nav-link smooth-scroll">الشراء</a></li>*@
+                    <li class="nav-item"><a href="#contacts" class="nav-link smooth-scroll">اتصل بنا</a></li>
+                    <li class="nav-item"><a href="../en/" class="nav-link smooth-scroll">English</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=net.tubemine" target="_blank" class="btn-mr pill th-primary-outline"> تحميل البرنامج</a></li>
+                    <li class="nav-item"> <a href="~/Account/Login" class="nav-link smooth-scroll">تسجيل الدخول</a></li>
+                    <li class="nav-item"> <a href="~/Account/Register" class="nav-link smooth-scroll">اشتراك</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+ 
+<section class="bannerarea home-page-1">
+    <div class="container">
+        <div class="row bn-height align-items-center">
+            <div class="col-lg-9">
+                <div class="banner-content">
+                    <h2 class="animation" data-animation="fadeInUp" data-animation-delay="0.6s">تيوبماين - يساعدك في الحصول على مشتركين ومشاهدات وإعجابات لقناتك وفيديوهاتك</h2>
+                    <div class="animation" data-animation="fadeInDown" data-animation-delay="0.6s">
+                        <p>هو أفضل تطبيق لزيادة عدد المشتركين الخاص بك وجعل قناتك وفيديوهاتك أكثر شهرة بكل سهولة وفي أسرع وقت. </p>
+                        <!--<a href="#" class="btn-mr  btn-iconprimary">
+                            <span class="icon-element">
+                                <i class="icofont icofont-brand-apple"></i>
+                                App Store
+                            </span>
+                        </a>-->
+                        <a href="https://play.google.com/store/apps/details?id=net.tubemine" target="_blank" class="btn-mr btn-iconsecondary">
+                            <span class="icon-element">
+                                <img src="/Publish/ar/assets/images/all-img/gicon.png" alt="">
+                                تحميل من جوجل بلاي
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mbl-1-img animation" data-animation="zoomIn" data-animation-delay="0.9s"><img src="/Publish/ar/assets/images/all-img/mbl1.png" alt=""></div>
+</section>
+ 
+
+<section class="feature-area" id="feature">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 sec-titile-wrapper text-center">
+                <h2 class="section-title">تيوبماين</h2>
+                <p>
+                    نحن نخلق منصة لمساعدة قناتك والفيديوهات الخاصة بك للوصول إلى العديد من الناس في جميع أنحاء العالم. باستخدامك لهذا التطبيق ستحصل على مشتركين حقيقيين، ومشاهدات حقيقية 100% من مستخدمين آخرين هم أيضًا يفضلون تطبيقنا.
+                </p>
+            </div>
+            <!-- end section-titile -->
+            <div class="col-lg-4 col-sm-12 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                <div class="single-feature">
+                    <img src="/Publish/ar/assets/images/all-img/s2.png" alt="">
+                    <h3>هل ترغب في أن يصبح الفيديو الخاص بك فيديو مشهور؟</h3>
+
+                    
+                </div>
+            </div>
+            <!-- end single feature -->
+            <div class="col-lg-4 col-sm-12 text-center animation" data-animation="fadeInUp" data-animation-delay="0.13s">
+                <div class="single-feature">
+                    <img src="/Publish/ar/assets/images/all-img/s1.png" alt="">
+                    <h3>هل تريد الحصول على المزيد من المشتركين والمشاهدات والإعجابات من أجل قناتك وفيديوهاتك؟</h3>
+
+
+                </div>
+            </div>
+            <!-- end single feature -->
+            <div class="col-lg-4 col-sm-12 text-center animation" data-animation="fadeInUp" data-animation-delay="0.16s">
+                <div class="single-feature">
+                    <img src="/Publish/ar/assets/images/all-img/s3.png" alt="">
+                    <h3>أو تحتاج 1000 من المشتركين و 4000 ساعة مشاهدة من الوقت متفاعلة على قناتك؟</h3>
+
+                </div>
+            </div>
+            <!-- end single feature -->
+            <!-- end single feature -->
+        </div>
+    </div>
+</section>
+
+ 
+
+<section class="expericence-andSkills" id="abouts">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-xl-6">
+                <div class="sec-titile-wrapper">
+                    <h2 class="section-title">كيفية الحصول على المزيد من المشتركين ؟ ، ومشاهدات علي الفيديو والقناة ؟</h2>
+
+                </div>
+                <!-- end section titile wrapper -->
+                <div class="miniSkilss">
+                    <h4>قم بتثبيت تطبيق تيوبماين، ثم سجل الدخول من حسابك علي جوجل</h4>
+
+                </div>
+                <!-- end mini skiklls -->
+                <div class="miniSkilss">
+                    <h4>
+                        اختر الفيديو الذي تريد زيادة المشاهدات أو الإعجابات والاشتراكات عليه وقناتك التي ترغب في زيادة المشتركين فيها، ثم قم بإجراء "حملة".
+                    </h4>
+
+                </div>
+                <!-- end mini skiklls -->
+                <div class="miniSkilss">
+                    <h4>حدد عدد المشتركين الذي ترغب في الحصول عليه وعدد المشاهدات على قناتك.</h4>
+
+                </div>
+
+
+                <p>سنقوم فورًا بترويج قناتك ومقاطع الفيديو الخاصة بك إلى أشخاص من جميع أنحاء العالم و سنساعد قناتك في الحصول على مزيد من المشتركين، وأن يحصل الفيديو الخاص بك على المزيد من المشاهدات والإعجابات.</p>
+                <p>
+                    تحتاج إلى جمع العملات لإنشاء حملتك عن طريق إجراء عملية شراء أو بمجرد مشاهدة فيديو آخر من أشخاص آخرين ستحصل على عملات.
+                </p>
+                <!-- end mini skiklls -->
+            </div>
+            <div class="col-lg-6 col-xl-4 align-self-lg-center  offset-xl-1 align-self-xl-end animation" data-animation="bounceInUp">
+                <div class="skl-mbl-img">
+                    <img src="/Publish/ar/assets/images/all-img/mbl2.png" alt="">
+                </div>
+                <!-- end skl mobile image -->
+            </div>
+        </div>
+    </div>
+</section>
+
+ 
+
+<section class="amazing-screen" id="screen">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 sec-titile-wrapper text-center">
+                <h2 class="section-title">شاشات البرنامج</h2>
+                <p>تيوبماين هو تطبيق سهل الاستخدام يوفر لك تجربة رائعة وسريعة لنمو قناة الفيديوهات الخاصة بك . لقد قمنا بتصميم شاشة مدهشة للتطبيق وتصميمات عالية الجودة لجعل تجربتك لزيادة المشاهدات على قناتك الأفضل على الإطلاق.</p>
+            </div>
+            <!-- end section-titile -->
+            <div class="col-12">
+                <div class="swiper-container s1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="/Publish/ar/assets/images/all-img/mob1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/Publish/ar/assets/images/all-img/mob2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/Publish/ar/assets/images/all-img/mob4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/Publish/ar/assets/images/all-img/mob5.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/Publish/ar/assets/images/all-img/mob6.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/Publish/ar/assets/images/all-img/mob7.png" alt=""></div>
+                        <div class="swiper-slide"><img src="/Publish/ar/assets/images/all-img/mob8.png" alt=""></div>
+
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination one"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="expericence-andSkills faqs" id="faq">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="sec-titile-wrapper">
+                    <h2 class="section-title">الاسئلة الشائعة لتيوبماين</h2>
+
+                </div>
+                <!-- end section titile wrapper -->
+                <div id="accordion">
+                    <div class="card custombg">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    كيفيه الحصول علي المزيد من المشتركين علي قناتي ؟
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                أولا ، تحتاج إلى جمع العملة عن طريق الاشتراك في قناه أخرى أو اجراء عمليه شراء. عندما يكون لديك ما يكفي من العمله ، يمكنك إنشاء حمله للترويج للقناه الخاصة بك: في علامة التبويب حمله-> أضافه زر-> حدد قناتك وجعل رقم النظام من المشترك تريد
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card custombg">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    كيفيه الحصول علي رابط القناة؟
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                فتح يوتيوب التطبيق-> رمز الملف الشخصي-> قناتي-> المزيد زر-> حصة-> نسخ الرابط.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card custombg">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    هل تيوبماين تولد مشتركين تلقائيا؟ هل هي أمنه لقناتي ؟
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                لا ، فهو يخالف بنود وشروط اليوتيوب. لابد ان يكون جميع المشتركين هو مستخدم حقيقي. إنه آمن للغاية مع قناتك
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custombg">
+                        <div class="card-header" id="headingFour">
+                            <h5 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    لماذا لا يتساوى المشترك الحقيقي مع الطلب عند إنشاء حملة؟
+                                </a>
+                            </h5>
+                        </div>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                            <div class="card-body">
+                                في بعض الاحيان يقوم المستخدم بالاشتراك في قناتك ثم يلغي الاشتراك ا أو تتم أزاله حسابهم ، لذلك المشترك الحقيقي ربما اقل من طلبك
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card custombg">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    هل يمكنني إلغاء الاشتراك في القناة التي أشترك فيها لكسب العملة؟
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                انت لا تستطيع فعلها. إذا اشترك أشخاص آخرون ثم ألغيت الاشتراك ، فسيتم تقليل المشترك الحقيقي في قناتك. لذلك لا نسمح لك بإلغاء اشتراك القناة التي اشتركت فيها على هذا التطبيق. إذا ألغيت اشتراك قناتك التي اشتركت في هذا التطبيق ، فسنحظر حسابك
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card custombg">
+                        <div class="card-header" id="headingSix">
+                            <h5 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                    لماذا اشترك في القناة على تطبيق اليوتيوب ولكن لا يمكنني الحصول على عملات عند الرجوع إلى هذا التطبيق؟
+
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                            <div class="card-body">
+                                إذا اشتركت في هذه القناة ولكنك لم تتمكن من الحصول على عملات معدنية ، فيرجى التحقق مما إذا كان حسابك قد سجل الدخول إلى هذا التطبيق وأن تطبيق اليوتيوب مماثل أم لا
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card custombg">
+                        <div class="card-header" id="headingSeven">
+                            <h5 class="mb-0">
+                                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                    لماذا تنقص عملاتى؟
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                            <div class="card-body">
+                                يرجي التأكيد على:<br />
+                                1. انك تستخدم نفس الحساب في كل من اليوتيوب و تيوبماين و عند مراجعه الاشتراكات<br />
+                                2. انك قد قمت بالفعل بالاشتراك في القناه و ضغطت زر الاعجاب و فعلت الجرس و كتبت تعليق علي الفيديو.<br />
+                                3. انك لا تلغي اي اشتراك بعد الحصول علي النقاط<br />
+                                4. إن الحساب الذي تستخدمه يكون مفعل علي جوجل<br />
+                                5. عدم تفعيل زر التشغيل التلقائي في اليوتيوب<br />
+                                عدم الالتزام بهذه النقاط سوف يؤدي إلى خصم النقاط من رصيدك و قد يتم حظر حسابك
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-2 text-lg-right text-sm-center animation" data-animation="bounceInUp">
+                <img src="/Publish/ar/assets/images/all-img/mbl3.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="blog-area" id="vedio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12   sec-titile-wrapper text-center">
+                <iframe width="100%" height="515" src="https://www.youtube.com/embed/MQmDsiFgVBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="get-the-app">
+    <div class="app-overlay"></div>
+    <!-- end app overlay -->
+    <div class="container">
+        <div class="row align-items-center get-app-height">
+            <div class="col-lg-6 offset-lg-6 col-xl-5 offset-xl-6 sec-titile-wrapper app-titile">
+                <h2 class="section-title">حمل تطبيق تيوبماين مجانًا الآن</h2>
+                <p>
+                    لا يوفر تيوبماين القدرة على شراء المشتركين والمشاهدات حيث أن ذلك ضد سياستنا. نحن فقط منصة لمساعدة فيديوهاتك وقناتك من أجل الوصول إلى جماهير أكبر يمكنهم مشاهدة منها ما ينال إعجابهم وإهتمامهم.
+                </p>
+                <!--<a href="#" class="btn-mr  btn-iconprimary2">
+                    <span class="icon-element">
+                        <i class="icofont icofont-brand-apple"></i>
+                        App Store
+                    </span>
+                </a>-->
+                <a href="https://play.google.com/store/apps/details?id=net.tubemine" target="_blank" class="btn-mr btn-iconsecondary2">
+                    <span class="icon-element">
+                        <img src="/Publish/ar/assets/images/all-img/gicon.png" alt="">
+                        حملّه الآن
+                    </span>
+                </a>
+            </div>
+            <!-- end section-titile -->
+        </div>
+    </div>
+</section>
+
+ 
+ 
+@*<section class="blog-area" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 sec-titile-wrapper text-center">
+                <h2 class="section-title">الشراء</h2>
+                <p>Paypal : help.tubemine@gmail.com</p>
+                <p>Vodafone Cash : +201019410831 (Egypt Only)</p>
+                <p>INWI MONEY : +212627823730 (Morocco Only)</p>
+            </div>
+
+        </div>
+
+    </div>
+</section>*@
+
+
+ 
+<section class="get_intocuh" id="contacts">
+ 
+    <div class="container">
+        <div class="row">
+            <!--<div class="col-12 get-in-box">
+                <div class="row">
+                    <h3 class="col-lg-9 offset-lg-1 get-title">اتصل بنا</h3>
+                    <div class="col-lg-3 offset-lg-1 col-md-4">
+                        <div class="single-get-intocuh">
+
+                            <h5><i class="icofont icofont-social-google-map"></i>العنوان</h5>
+                            <address>
+                                القاهرة - جمهوريه مصر العربية
+                            </address>
+                        </div>
+                        
+                    </div>-->
+                    <!-- end single get in touch -->
+                    <!--<div class="col-lg-4 text-md-center col-md-4">
+                        <div class="single-get-intocuh border-LR">
+                            <h5><i class="icofont icofont-ui-call"></i>التليفون</h5>
+                            <address>
+                                <span dir="ltr">   +201019410831 </span>
+                            </address>
+                        </div>
+                    
+                    </div>
+                   
+                    <div class="col-lg-3 offset-lg-1 col-md-4">
+                        <div class="single-get-intocuh">
+                            <h5><i class="icofont icofont-email"></i>البريد الالكتروني</h5>
+                            <address>
+                                <a href="mailto:info@tubemine.net">info@tubemine.net</a><br>
+
+
+                            </address>
+                        </div>
+                       
+                    </div>
+                     
+                </div>
+            </div>-->
+            <!-- end get in box -->
+            <div class="col-12 get-in-form">
+                <h2 class="section-title" style="text-align:center;padding-top:100px;">اتصل بنا</h2>
+                <form action="/ar/contact-us" method="post">
+                    @Html.AntiForgeryToken()
+                    <div class="form-row">
+                        <div class="col-md-4">
+                            <input type="text" name="CustomerName" id="CustomerName" class="form-control" placeholder="الاسم" required>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="tel" name="CustomerPhone" id="CustomerPhone" class="form-control" placeholder="الموبايل" required>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" name="CustomerEmail" id="CustomerEmail" class="form-control" placeholder="البريد الالكتروني" required>
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="CustomerMessage" id="CustomerMessage" placeholder="اكتب رسالتك" required></textarea>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <button type="submit" class="btn-mr th-primary pill">ارسال</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+ 
+
+
+
